@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>banking-api: privacy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Privacy</h1>
+<p class="meta">banking-api · last updated 6 November 2026</p>
+
+<p>banking-api is a personal, self-hosted tool that reads account data from banks through open banking (PSD2 account
+information) and keeps it on its owner's own computers. It has one user: the person who runs it. It is not offered
+to the public, and nobody else's accounts can be connected to it.</p>
+
+<h2>What it reads</h2>
+<p>Only for accounts the owner links themselves, with the bank's own consent screen: account names and identifiers,
+balances, and transactions (date, amount, currency, counterparty and description as the bank provides them). It
+cannot make payments or change anything at the bank.</p>
+
+<h2>Where the data goes</h2>
+<ul>
+<li>Requests pass through <a href="https://enablebanking.com/">Enable Banking</a>, a regulated account information
+service provider, which connects to the bank. See Enable Banking's own privacy notice for its processing.</li>
+<li>The results are stored only on the owner's own devices and private cloud storage. No server, database or
+analytics service run by anyone else receives them.</li>
+<li>Nothing is sold, shared, or used for advertising or profiling.</li>
+</ul>
+
+<h2>How long</h2>
+<p>Bank consents expire on the bank's schedule (usually 90 to 180 days) and can be withdrawn at any time in the bank's
+app or by the owner. Stored data is kept for the owner's bookkeeping and deleted by the owner when no longer needed.</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:hi@atlascodes.ai">hi@atlascodes.ai</a></p>
+</main>
+</body>
+</html>
